@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>
+    <!-- Main container -->
+    <div class="container">
+        <h2>TO DO APP</h2>
+        
+        <!-- Main Section -->
+
+            <!-- the input filed -->
+            <div class="input">
+                <input type="text" placeholder=" " id="addTask">
+                <input type="submit" value="ADD TASK" id="submittask" onclick="addElement()" />
+            </div>
+
+            <!-- the todos section  -->
+            <div class="todo">
+                <h4>TO DOs LISTS</h4>
+                <div class="todolists">
+
+                    <!-- items in to do lists -->
+                    <div id="items">
+                        <!-- <div class="item">
+                            <input class="item-content" value="dddd" readonly>
+                            <button class="item-delet" onclick="doneItem(this)" >DONE</button>
+                            <button class="item-done" onclick="delet(this)" >X</button>
+                        </div> -->
+                    </div>
+
+                    <h4>WHAT YOU DONE</h4>
+                    <!-- Done items lists -->
+                    <div id="done-items">
+                        <!-- <div class="done-item">
+                            <input class="item-content" value="df" readonly>
+                            <button class="item-delet" onclick="delet(this)" >X</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

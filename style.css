@@ -1,0 +1,147 @@
+.wrap input,
+.wrap .ex {
+  display: inline-block;
+}
+
+body {
+    font-family:monospace;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.container {
+    background-color: rgb(237, 237, 237);
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+    font-family: monospace;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+#addTask {
+    height: 30px;
+    width: 60%;
+    border-radius: 15px;
+    margin-left: 10px;
+    border-width: 1px;
+    padding-left: 5px;
+    font-family: monospace;
+}
+#addTask:enabled {
+    outline: none;
+}
+#submittask {
+    border: none;
+    margin-left: 10px;
+    transition: 10ms;
+    background: none;
+    font-family: monospace;
+}
+#submittask:active {
+    transform: scale(1.1);
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.todo {
+    background-color: rgb(223, 223, 223);
+    color: black;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 1px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px; */
+}
+
+#items {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0;
+    height: 50%
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+
+
+.item-delet:active {
+    transform: scale(1.2);
+}
+
+.item-content {
+    display: block;
+    padding: 10px;
+    border: none;
+    background: none;
+    border-radius: 5px;
+    width: 90%;
+    font-family: monospace;
+}
+.item-content:active {
+    border: none;
+    background: none;
+    border-style: none;
+}
+.item-content:enabled {
+    border-style: none;
+    /* border: none transparent;  */
+    outline: none;
+}
+
+.close {
+    display: inline;
+    margin: 0px;  
+}
+
+.done-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(215, 251, 207);
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+#no-content {
+    margin: auto;
+    text-align: center;
+}
